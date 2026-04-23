@@ -1,4 +1,4 @@
-import {multiply} from "/multiply.js";
+import { multiply } from "/multiply.js";
 
 test("multiply", ()=>{
     expect(multiply(2, 2)).toEqual(4);
