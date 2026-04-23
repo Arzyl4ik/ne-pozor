@@ -1,6 +1,6 @@
 import {multiply} from "/multiply.js";
 
-test("multiplu", ()=>{
+test("multiply", ()=>{
     expect(multiply(2, 2)).toEqual(4);
     expect(multiply(4, 3)).toEqual(12);
 
