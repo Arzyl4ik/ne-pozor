@@ -1,6 +1,3 @@
-export const multiply = (a, b) => {
-    if(a == 0 || b == 0) {
-        return 0
-    }
+export function multiply(a, b) {
     return a * b
 }
