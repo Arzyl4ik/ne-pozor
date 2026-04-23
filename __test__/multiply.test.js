@@ -1,0 +1,13 @@
+import {multiply} from "/multiply.js";
+
+test("multiplu", ()=>{
+    expect(multiply(2, 2)).toEqual(4);
+    expect(multiply(4, 3)).toEqual(12);
+
+    expect(multiply(-4, 2)).toEqual(-8);
+
+    expect(multiply(4, 0)).toEqual(0);
+    expect(multiply(0, 4)).toEqual(0);
+
+    expect(multiply(0, 0)).toEqual(0);
+});
