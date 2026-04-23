@@ -1,4 +1,4 @@
-import { multiply } from ".//multiply";
+import { multiply } from "./multiply";
 
 const nodeInputOne = document.querySelector(".inputOne");
 const nodeInputTwo = document.querySelector(".inputTwo");
